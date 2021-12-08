@@ -6,7 +6,7 @@ cd ${CYBER_DOJO_SANDBOX}
 CLASSES=.:`ls /junit/*.jar | tr '\n' ':'`
 
 if javac --enable-preview --release 14 -Xlint:preview -Xlint:unchecked -Xlint:deprecation -cp $CLASSES *.java; then
-  java --enable-preview -jar /junit/junit-platform-console-standalone-1.7.2.jar \
+  java --enable-preview -jar /junit/junit-platform-console-standalone-1.8.2.jar \
       --disable-banner \
       --disable-ansi-colors \
       --details=tree \
