@@ -1,6 +1,6 @@
 {
-  "image_name": "cyberdojofoundation/java_junit:eda660d",
-  "display_name": "Java, JUnit",
+  "image_name": "cyberdojofoundation/java_junit:d343624",
+  "display_name": "Java 17, JUnit",
   "visible_filenames": [
     "HikerTest.java",
     "Hiker.java",
