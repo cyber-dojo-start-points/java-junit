@@ -1,6 +1,6 @@
 {
-  "image_name": "cyberdojofoundation/java_junit:c23ed9e",
-  "display_name": "Java 18, JUnit",
+  "image_name": "cyberdojofoundation/java_junit:edf2565",
+  "display_name": "Java 21, JUnit",
   "visible_filenames": [
     "HikerTest.java",
     "Hiker.java",
