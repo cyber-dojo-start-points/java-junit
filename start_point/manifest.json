@@ -1,6 +1,6 @@
 {
   "image_name": "cyberdojofoundation/java_junit:edf2565",
-  "display_name": "Java 21, JUnit",
+  "display_name": "Java 21, JUnit 5",
   "visible_filenames": [
     "HikerTest.java",
     "Hiker.java",
