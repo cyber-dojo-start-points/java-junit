@@ -1,5 +1,5 @@
 {
-  "image_name": "cyberdojofoundation/java_junit:edf2565",
+  "image_name": "ghcr.io/cyber-dojo-languages/java_junit:30b6214",
   "display_name": "Java 21, JUnit 5",
   "visible_filenames": [
     "HikerTest.java",
