@@ -1,11 +1,12 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/java_junit:30b6214",
-  "display_name": "Java 21, JUnit 5",
+  "display_name": "Java 25.0.2, JUnit 6.0.3",
+  "image_name": "ghcr.io/cyber-dojo-languages/java_junit:7aa5992",
   "visible_filenames": [
     "HikerTest.java",
     "Hiker.java",
     "cyber-dojo.sh"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "filename_extension": [
     ".java"
   ],
