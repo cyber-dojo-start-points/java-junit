@@ -1,5 +1,13 @@
 {
   "display_name": "Java 25.0.2, JUnit 6.0.3",
+  "language": [
+    "Java",
+    "25.0.2"
+  ],
+  "test_framework": [
+    "JUnit",
+    "6.0.3"
+  ],
   "image_name": "ghcr.io/cyber-dojo-languages/java_junit:7aa5992",
   "visible_filenames": [
     "HikerTest.java",
