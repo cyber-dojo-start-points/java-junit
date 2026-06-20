@@ -1,4 +1,4 @@
-[![Github Action (main)](https://github.com/cyber-dojo-start-points/java-junit/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-start-points/java-junit/actions)
+[![GitHub CI](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
 ### display_name="Java 25.0.2, JUnit 6.0.3"
 ### image_name=[ghcr.io/cyber-dojo-languages/java_junit](https://github.com/cyber-dojo-languages/java-junit/pkgs/container/java_junit)
