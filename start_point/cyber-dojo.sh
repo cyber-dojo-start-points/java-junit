@@ -5,6 +5,11 @@ cd ${CYBER_DOJO_SANDBOX}
 
 CLASSES=.:`ls /junit/*.jar | tr '\n' ':'`
 
+# Named by pattern rather than by version, because the jars are resolved when
+# the image is built and a version written in here would go stale the first time
+# a new one was published.
+CONSOLE_JAR=`ls /junit/junit-platform-console-standalone-*.jar`
+
 # Each [test] press starts two JVMs, one to compile and one to run the tests,
 # and starting them is most of the wait rather than a part of it. The image holds
 # an AOT cache for each, recorded when it was built, holding the classes that JVM
@@ -43,7 +48,7 @@ SOURCES=$(find . -name '*.java')
 if javac "${JAVAC_JVM_OPTS[@]}" -d . -Xlint:preview -Xlint:unchecked -Xlint:deprecation -cp $CLASSES $SOURCES; then
   java \
     "${TEST_JVM_OPTS[@]}" \
-    -jar /junit/junit-platform-console-standalone-6.0.3.jar \
+    -jar ${CONSOLE_JAR} \
     execute \
     --class-path . \
     --disable-banner \
