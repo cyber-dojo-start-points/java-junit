@@ -10,7 +10,7 @@ CLASSES=.:`ls /junit/*.jar | tr '\n' ':'`
 # a new one was published.
 CONSOLE_JAR=`ls /junit/junit-platform-console-standalone-*.jar`
 
-# Each [test] press starts two JVMs, one to compile and one to run the tests,
+# Each test run starts two JVMs, one to compile and one to run the tests,
 # and starting them is most of the wait rather than a part of it. The image holds
 # an AOT cache for each, recorded when it was built, holding the classes that JVM
 # loads in the form the JVM wants them; reading one back costs a fraction of
