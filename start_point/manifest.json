@@ -21,7 +21,7 @@
   "max_seconds": 10,
   "tab_size": 4,
   "progress_regexs": [
-    "Failures (\\d)\\:",
+    "^\\[\\s+(\\d+) tests failed\\s+\\]",
     "^\\[\\s+(\\d+) tests successful\\s+\\]"
   ]
 }
