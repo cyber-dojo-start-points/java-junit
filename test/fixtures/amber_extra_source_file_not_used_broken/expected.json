@@ -1,0 +1,7 @@
+{
+  "matches": [ "^\\./Digits\\.java:[0-9]+: error: ';' expected$" ],
+  "match_counts": {
+    "^1 error$": 1,
+    "^Test run finished after ": 0
+  }
+}

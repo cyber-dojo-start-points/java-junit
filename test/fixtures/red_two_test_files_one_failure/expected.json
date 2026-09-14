@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "the answer is three digits long \\[X\\] expected: <3> but was: <2>$": 1,
+    "^Failures \\(1\\):$": 1,
+    "^Test run finished after [0-9]+ ms$": 1,
+    "^\\[ +4 tests found +\\]$": 1,
+    "^\\[ +3 tests successful +\\]$": 1,
+    "^\\[ +1 tests failed +\\]$": 1
+  }
+}

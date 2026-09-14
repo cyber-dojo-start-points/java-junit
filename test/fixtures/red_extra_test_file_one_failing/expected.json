@@ -1,0 +1,10 @@
+{
+  "match_counts": {
+    "the answer is three digits long \\[X\\] expected: <3> but was: <2>$": 1,
+    "life the universe and everything \\[OK\\]$": 1,
+    "^Failures \\(1\\):$": 1,
+    "^\\[ +2 tests found +\\]$": 1,
+    "^\\[ +1 tests successful +\\]$": 1,
+    "^\\[ +1 tests failed +\\]$": 1
+  }
+}

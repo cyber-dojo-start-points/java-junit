@@ -1,0 +1,8 @@
+{
+  "match_counts": {
+    "^ +=> java\\.lang\\.ArithmeticException: / by zero$": 1,
+    "the answer is three digits long \\[X\\] expected: <3> but was: <2>$": 1,
+    "^\\[ +1 containers failed +\\]$": 1,
+    "^\\[ +1 tests failed +\\]$": 1
+  }
+}

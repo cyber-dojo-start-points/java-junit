@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "life the universe and everything \\[X\\] expected: <42> but was: <54>$": 1,
+    "the answer is even \\[OK\\]$": 1,
+    "the hiker is called arthur \\[OK\\]$": 1,
+    "^Failures \\(1\\):$": 1,
+    "^\\[ +3 tests found +\\]$": 1,
+    "^\\[ +2 tests successful +\\]$": 1,
+    "^\\[ +1 tests failed +\\]$": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "max_output_lines": 60,
+  "match_counts": {
+    "life the universe and everything \\[OK\\]$": 1,
+    "the answer is even \\[OK\\]$": 1,
+    "the hiker is called arthur \\[OK\\]$": 1,
+    "^\\[ +3 tests found +\\]$": 1,
+    "^\\[ +3 tests successful +\\]$": 1,
+    "^\\[ +0 tests failed +\\]$": 1
+  }
+}
